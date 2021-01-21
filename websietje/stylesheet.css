@@ -1,12 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
 img{
     max-width: 100%;
 }
 body{
     font-family: sans-serif;
-    background-color: rgb(184, 3, 3);
+    background-color: rgb(0, 174, 255);
     color: floralwhite;
     
 }
+nav{
+    background-color: rgb(128, 166, 238);
+    height: 39px;
+
+}
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+nav a:hover{
+    background-color: rgb(83, 139, 243);
+}
 h1{
+    clear: both;
     color: grey;
+    margin: 0;
+    padding: 30px;
+}
+section{
+
+}
+footer{
+    background-color: rgb(78, 78, 78);
+    color: white;
+    padding: 10px 30px;
 }
